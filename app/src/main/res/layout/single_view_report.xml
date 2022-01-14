@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_gravity="center"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store ID :"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/work_report_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S000"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owner Name :"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/work_report_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2555555"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store Name :"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/work_report_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pending"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No :"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/work_report_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0123456789"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
